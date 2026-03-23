@@ -1,2 +1,14 @@
-# chris-erg-v3-teams
-Prototype: ERG v3 Teams - Deployed via VibeSharing
+# ERG v3 Teams
+
+Deployed via [VibeSharing](https://vibesharing.app).
+
+## Local Development
+
+```bash
+npm install
+npm run dev
+```
+
+## Deploy
+
+Push to main branch - changes go live automatically.
