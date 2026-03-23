@@ -1,4 +1,4 @@
-# ERG v3 Teams
+# Prototype
 
 ## Project Structure
 
@@ -34,7 +34,7 @@ If you have a standalone HTML prototype, either:
 
 ## Deployment
 
-Push to main. Vercel auto-deploys within ~30-60 seconds. If you cannot push (e.g. in a sandboxed environment), stage and commit your changes so the user can push.
+Push to main. Vercel auto-deploys within ~30-60 seconds.
 
 ```bash
 git add .
@@ -43,3 +43,5 @@ git push origin main
 ```
 
 **Do NOT use vercel CLI, vercel deploy, zip upload, or any API endpoint. Just git push.**
+
+If you cannot push (e.g. in a sandboxed environment), stage and commit your changes so the user can push.
